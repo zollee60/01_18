@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Alapok - 2</title>
+
+    <style>
+        body{
+            background-color:darkseagreen;
+        }
+
+        h2 {
+            color: blue;
+        }
+
+        table,
+        tr,
+        td,
+        th {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div style="width: 960px; margin: 0 auto; background-color: beige;">
+
+        <!--Audió, Videó-->
+
+        <audio controls src="./media/shakira_music.mp3"></audio>
+
+        <video width="480px" controls src="./media/shakira.mp4"></video>
+
+        
+
+        <h2>Táblázatok:</h2>
+        <!--Táblázatok-->
+        <table>
+            <!--Táblázat fejléc-->
+            <thead>
+                <!--Táblázat sor-->
+                <tr>
+                    <!--Cellák-->
+                    <th>Fejléc 1</th>
+                    <th>Fejléc 2</th>
+                    <th>Fejléc 3</th>
+                </tr>
+            </thead>
+            <!--Táblázat adatok-->
+            <tbody>
+                <tr>
+                    <!--Cellák-->
+                    <td>Cella 2-1</td>
+                    <td>Cella 2-2</td>
+                    <td>Cella 2-3</td>
+                </tr>
+                <tr>
+                    <td>Cella 3-1</td>
+                    <td>Cella 3-2</td>
+                    <td>Cella 3-3</td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+
+        <!--Képek elhelyezése-->
+        <div style="width: 480px; margin: 0 auto">
+            <img style="width: 480px;" src="./media/image.jpg">
+        </div>
+
+        <!--Linkek-->
+        <a target="_blank" href="https://www.wikipedia.hu">WIKIPEDIA</a>
+    </div>
+
+</body>
+
+</html>
